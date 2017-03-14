@@ -1,0 +1,24 @@
+﻿--[[
+	Name:Cube.lua
+	By  :Mickey
+	Desc:
+]]
+
+local speed = 25
+
+function Awake()
+	-- body
+end
+
+function Start()
+	-- body
+end
+
+function Update()
+	local r = CS.UnityEngine.Vector3.up * CS.UnityEngine.Time.deltaTime * speed
+	self.transform:Rotate(r)
+end
+
+function OnDestroy()
+	-- body
+end

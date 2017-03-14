@@ -1,0 +1,9 @@
+﻿--[[
+	Name:Tests.lua
+	By  :Mickey
+	Desc:
+]]
+
+print("Test my require2")
+
+require'ffff'
