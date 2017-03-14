@@ -7,3 +7,12 @@
 print("Test my require2")
 
 require'ffff'
+
+CS.MickeyUtils.MEvent.Bind("TestLua",function() 
+	print("Super man")
+end)
+
+CS.MickeyUtils.MEvent.Send("TestLua")
+CS.MickeyUtils.AsynCall.AddCall(function() 
+	print("Super man@@@@")
+end)
